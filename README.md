@@ -14,24 +14,43 @@ The nodes are the distinct hashtags within the 1 minute window of time, the edge
 The structure of this repo is as follows:
 
 ├── README.md 
+
 ├── run.sh
+
 ├── src
+
 │   |── average_degree.py
+
 │   |── graphcalcs.py
+
 │   |── graphcalcs.pyc
+
 │   └── tweets_extract_fields.py 
+
 ├── tweet_input
+
 │   |── tweets.txt
+
 │   └── tweets_extract.txt
+
 ├── tweet_output
+
 │   └── output.txt
+
 └── insight_testsuite
+
     ├── run_tests.sh
+    
     └── tests
+    
         └── test-2-tweets-all-distinct
+        
             ├── tweet_input
+            
             │   └── tweets.txt
+            
             └── tweet_output
+            
                 └── output.txt
 
 
