@@ -1,7 +1,7 @@
 
 Calculating the average degree of a vertex of a Twitter hashtag graph.
 
-tweets_extract_fields.py extracts the necessary fields (hashtags, created_at), removes rate limiting messages and saves to a smaller sized file ./tweet_input/tweets_extract.txt
+tweets_extract_fields.py extracts the necessary fields (hashtags, created_at) from the input tweets.txt, removes rate limiting messages and saves to a smaller sized file ./tweet_input/tweets_extract.txt
 
 average_degree.py iterates over the input and appends valid information (as per the below), at the most recent iteration point, to a list of tuples for the twitter vertex graph:
 - the entry must have at least two hashtags
