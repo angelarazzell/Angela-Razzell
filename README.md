@@ -12,38 +12,38 @@ graphcalcs.py is imported into average_degree.py. graphcalcs.py contains a funct
 The nodes are the distinct hashtags within the 1 minute window of time, the edges for hashtags mentioned within the same tweet are calculated using itertools permutations, to calculate the tuples of connected hashtags.
 
 The structure of this repo is as follows:
-
-├── README.md 
-├── run.sh
-├── src
-│   |── average_degree.py
-│   |── graphcalcs.py
-│   |── graphcalcs.pyc
-│   └── tweets_extract_fields.py 
-├── tweet_input
-
-│   |── tweets.txt
-
-│   └── tweets_extract.txt
-
-├── tweet_output
-
-│   └── output.txt
-
-└── insight_testsuite
-
-    ├── run_tests.sh
     
-    └── tests
-    
-        └── test-2-tweets-all-distinct
-        
+            ├── README.md 
+            ├── run.sh
+            ├── src
+            │   |── average_degree.py
+            │   |── graphcalcs.py
+            │   |── graphcalcs.pyc
+            │   └── tweets_extract_fields.py 
             ├── tweet_input
             
-            │   └── tweets.txt
+            │   |── tweets.txt
             
-            └── tweet_output
+            │   └── tweets_extract.txt
             
-                └── output.txt
+            ├── tweet_output
+            
+            │   └── output.txt
+            
+            └── insight_testsuite
+            
+                ├── run_tests.sh
+                
+                └── tests
+                
+                    └── test-2-tweets-all-distinct
+                    
+                        ├── tweet_input
+                        
+                        │   └── tweets.txt
+                        
+                        └── tweet_output
+                        
+                            └── output.txt
 
 
